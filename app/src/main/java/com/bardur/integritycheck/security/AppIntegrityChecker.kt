@@ -27,6 +27,7 @@ class AppIntegrityCheckerImpl(
         if (!isInstallerValid()) {
             // Log a warning if the user is using an app without installer
             securityLogger.logWarning(TAG, "No Installer found!")
+            return false
         }
 
         return true

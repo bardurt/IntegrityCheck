@@ -30,7 +30,6 @@ class EnvironmentValidatorImpl(
             securityLogger.logMessage(TAG, "Device is not rooted!")
         }
 
-
         if (emulatorChecker.isEmulator()) {
             securityLogger.logWarning(TAG, "Device is emulator!")
             return false
