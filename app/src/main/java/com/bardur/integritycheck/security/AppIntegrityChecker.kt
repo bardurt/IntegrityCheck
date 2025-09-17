@@ -14,7 +14,7 @@ class AppIntegrityCheckerImpl(
 
     companion object {
         private const val TAG = "AppIntegrity"
-        private const val PACKAGE_NAME = "com.crowdcomfort.manager"
+        private const val PACKAGE_NAME = "com.bardur.integritycheck"
     }
 
     override fun isValid(): Boolean {
