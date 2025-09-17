@@ -64,3 +64,8 @@ fun StartUp(viewModel: MainViewModel) {
         null -> {}
     }
 }
+```
+
+## Note
+
+**App integrity** is an evolving process, the checks and validations must be **updated regularly** to remain effective against new threats.
